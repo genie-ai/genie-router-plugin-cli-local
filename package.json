@@ -1,14 +1,14 @@
 {
-  "name": "genie-router-cli-local",
-  "version": "1.0.0",
+  "name": "@genie-ai/genie-router-cli-local",
+  "version": "2.0.0",
   "description": "A genie router plugin that can be used to send input and receive output in the terminal where genie-router is started.",
   "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "test": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matueranet/genie-router-plugin-cli-local.git"
+    "url": "git+https://github.com/genie-ai/genie-router-plugin-cli-local.git"
   },
   "keywords": [
     "genie-router",
@@ -17,17 +17,23 @@
     "cli",
     "local"
   ],
+  "engines": {
+    "node": ">=8.10"
+  },
   "author": "matueranet",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matueranet/genie-router-plugin-cli-local/issues"
+    "url": "https://github.com/genie-ai/genie-router-plugin-cli-local/issues"
   },
-  "homepage": "https://github.com/matueranet/genie-router-plugin-cli-local#readme",
+  "homepage": "https://github.com/genie-ai/genie-router-plugin-cli-local#readme",
   "devDependencies": {
-    "standard": "^10.0.2"
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.9.0"
   },
   "dependencies": {},
   "genieRouterPlugin": {
-    "name": "cli-local"
+    "name": "cli-local",
+    "apiVersion": "1.0.0"
   }
 }

@@ -1,0 +1,20 @@
+{
+    "env": {
+        "browser": false,
+        "node": true
+    },
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "max-len": 0,
+        "no-underscore-dangle": 0,
+        "class-methods-use-this": "off",
+        "no-console": "off"
+    },
+    "globals": {
+        "node": true
+    },
+    "extends": "airbnb-base"
+}
